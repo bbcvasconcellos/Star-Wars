@@ -1,0 +1,43 @@
+.container {
+  width: 100%;
+  padding-top: 0;
+  margin-top: 0;
+  
+  nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    height: 2.4rem;
+    position: fixed;
+    z-index: 1;
+
+    background: #121317;  
+
+    padding-left: 2rem;
+
+  a {
+    display: inline-block;
+    padding: 0 0.5rem;
+
+    color: #FFE81F;
+
+    transition: filter 0.2s, transform 0.2s;
+
+    &:first-child{
+      margin-right: 4rem;
+    }
+
+    & + a {
+      margin-left: 2rem;
+    }
+
+    &:hover {
+      filter: brightness(0.8);
+      transform: scale(1.03);
+    }
+  }
+}
+  
+}
+
