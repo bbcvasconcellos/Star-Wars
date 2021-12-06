@@ -1,18 +1,10 @@
+import { Link } from "react-router-dom"
 import styles from "./home.module.scss";
 import starWarsPoster from "../../assets/img/death_star.png";
 import { Button } from "../../components/Button";
-import { useState } from "react";
 
 
 export const Home = () => {
-  /* const [redirect, setRedirect] = useState(false);
-
-  const handleRedirect = () => {
-    setRedirect(prevState => !prevState)
-  }
-
-  console.log(redirect); */
-
   return (
     <div className={styles.container}>
       <section className={styles.textContent}>
@@ -22,7 +14,9 @@ export const Home = () => {
           <br />
           <h1>May the Force <br />Be With You </h1>
         </div>
-        <Button text="Ver filmes" />
+        <Link to='/filmes'>
+          <Button text="Ver filmes" />
+        </Link>
       </section>
       <img src={starWarsPoster} alt="star wars new hope poster"/>
     </div>

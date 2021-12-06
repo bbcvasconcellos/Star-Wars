@@ -1,8 +1,24 @@
+import { useState, useEffect } from "react"
+
+
 export const Movies = () => {
+  const [movies, setMovies] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async() => {
+      await fetch('https://swapi.dev/api/films')
+     .then(response => response.json())
+     .then(data => setMovies(data))
+    }
+    fetchData()
+  }, [])
+
+  console.log(movies);
+
   return (
-    <div>
-      <h1 style={{color: "white"}}>Hello</h1>
-    </div>
+    <>
+      <p>Oi</p>
+    </>
     
   )
 }

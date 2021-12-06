@@ -1,8 +1,9 @@
-import { fibonacci, solution, getWinner } from "../../utils/questions"
+import { fibonacci, solution, getWinner } from "../../utils/questions";
+import styles from "./questions.module.scss";
 
 export const QuestionAnswers = () => {
   return(
-    <>
+    <div className={styles.container}>
       <div className="question-result">
         <b>Resultado da Questão 1:</b> {solution([-1, -3])}
       </div>
@@ -15,6 +16,6 @@ export const QuestionAnswers = () => {
       </div>
       <div className="page">        
       </div>
-      </>
+      </div>
   )
 }

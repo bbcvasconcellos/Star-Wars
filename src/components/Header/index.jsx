@@ -3,8 +3,7 @@ import styles from "./header.module.scss";
 
 export const Header = () => {
   return (
-    <header className={styles.container}>
-      <nav>
+      <nav className={styles.container}>
         <a href="/">
           <h1>Star Wars</h1>
         </a>
@@ -12,7 +11,6 @@ export const Header = () => {
         <a href="/questoes">Resultados Questoes</a>
         
       </nav>
-    </header>
   )
 }
 
