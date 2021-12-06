@@ -10,6 +10,7 @@ function solution(A) {
   return smallestPositiveNum;
 }
 
+
 function fibonacci() {
   let number = 1;
   const maxNum = 4000000;
@@ -28,6 +29,7 @@ function fibonacci() {
 
   return evenNumArr.reduce((a,b) => (a + b))
 }
+
 
 function getWinner(cardsA, cardsB) {
   let scoreA = 0;

@@ -17,7 +17,7 @@ export const Movies = () => {
 
   return (
     <>
-      <p>Oi</p>
+      <h1>Hello</h1>
     </>
     
   )

@@ -5,7 +5,9 @@ import { RoutesDirection } from "./routes";
 function App() {
   return (
     <>  
-      <Header />
+      <header>
+        <Header />
+      </header>
       <main id="container">
         <RoutesDirection /> 
       </main>
