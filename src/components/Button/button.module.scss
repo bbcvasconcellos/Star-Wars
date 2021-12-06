@@ -1,6 +1,6 @@
 .redirectButton {
   height: 3rem;
-  width: 12rem;
+  width: 18rem;
 
   display: flex;
   align-items: center;
@@ -17,7 +17,7 @@
   background: linear-gradient(to right, #15f2fd 50%, #b9b9b7 50%);
   background-size: 200% 100%;
   background-position: right bottom;
-  transition: all 0.8s ease-out;
+  transition: all 0.7s ease-out;
 
   &:hover {
     background-position: left bottom;

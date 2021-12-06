@@ -29,8 +29,53 @@ function fibonacci() {
   return evenNumArr.reduce((a,b) => (a + b))
 }
 
-function getWinner(A, B) {
-  return "getWinner";
+function getWinner(cardsA, cardsB) {
+  let scoreA = 0;
+  let scoreB = 0;
+  let hands = [];
+  hands.push(cardsA, cardsB)
+
+  hands.forEach(hands => {
+    hands.map((card, index) => {
+      switch(card) {
+        case "A":
+          hands.splice(index, 1);
+          hands.splice(index, 0, 14);
+          break;
+        case "K":
+          hands.splice(index, 1);
+          hands.splice(index, 0, 13);
+          break;
+        case "Q":
+          hands.splice(index, 1);
+          hands.splice(index, 0, 12);
+          break;
+        case "J":
+          hands.splice(index, 1);
+          hands.splice(index, 0, 11);
+          break;
+        case 0:
+          hands.splice(index, 1);
+          hands.splice(index, 0, 10);
+          break;
+      }
+    })
+  })
+
+  cardsA.forEach((cardA, indexA) => {
+    cardsB.forEach((cardB, indexB) => {
+      if(indexA === indexB) {
+        if(cardA > cardB) {
+          scoreA++;
+        }
+        if(cardA < cardB) {
+          scoreB++;
+        }
+      }
+    })
+  })
+
+  return scoreA > scoreB ? 1 : scoreA === scoreB ? 0 : -1
 }
 
 export { solution, fibonacci, getWinner };
