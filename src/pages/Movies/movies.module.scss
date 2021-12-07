@@ -1,0 +1,27 @@
+.container {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 3rem;
+  justify-items: center;
+  align-items: center;
+  color: #FFE81F;
+
+
+  .movieContainer {
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 0.5em;
+    min-height: 150px;
+    width: 200px;
+    text-align: center;
+    font-weight: 700;
+    transition: transform 0.4s;
+
+    &:hover{
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+  }
+  
+}

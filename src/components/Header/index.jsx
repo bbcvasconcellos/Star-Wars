@@ -8,8 +8,7 @@ export const Header = () => {
           <h1>Star Wars</h1>
         </a>
         <a href="/filmes">Filmes</a>
-        <a href="/questoes">Resultados Questoes</a>
-        
+        <a href="/questoes">Resultados Questões</a> 
       </nav>
   )
 }
