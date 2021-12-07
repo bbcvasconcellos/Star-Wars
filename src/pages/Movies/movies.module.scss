@@ -6,16 +6,25 @@
   justify-items: center;
   align-items: center;
   color: #FFE81F;
+  font-size: 1rem;
 
 
   .movieContainer {
     padding: 1rem;
-    border: 1px solid white;
     border-radius: 0.5em;
-    min-height: 150px;
-    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    min-height: 180px;
+    width: 150px;
+
     text-align: center;
     font-weight: 700;
+
+    background: #23252c;
+
     transition: transform 0.4s;
 
     &:hover{
