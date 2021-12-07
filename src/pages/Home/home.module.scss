@@ -1,6 +1,6 @@
 .container {
   margin: 5rem auto;
-  padding: 0 2rem;
+  padding: 0 5rem;
   overflow-x: hidden;
 
   display: flex;
@@ -13,6 +13,7 @@
     align-items: center;
     justify-content: flex-start;
     text-align: center;
+    word-wrap: break-word; /*remover qualquer coisa*/
     color: #FFE81F;
 
     > span {
