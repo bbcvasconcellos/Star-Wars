@@ -1,11 +1,11 @@
 .container {
-  margin: 5rem auto;
-  padding: 0 5rem;
+  margin: 5rem auto 0;
+  padding: 0 2rem;
   overflow-x: hidden;
-
+  max-height: 90vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 
   .textContent {
     display: flex;
@@ -28,7 +28,7 @@
         word-wrap: break-word;
         font-size: 4rem;
       }
-      h2 {
+      h3 {
         margin-top: 2rem;
         font-size: 1.8rem;
       }

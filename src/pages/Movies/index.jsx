@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
+import { MovieModal } from "../../components/MovieModal";
 import styles from "./movies.module.scss";
 
 
 export const Movies = () => {
   const [movies, setMovies] = useState([]);
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedMovie, setSelectedMovie] = useState({});
 
   useEffect(() => {
     const fetchData = async() => {
@@ -11,23 +14,34 @@ export const Movies = () => {
      .then(response => response.json())
      .then(data => setMovies(data.results))
     }
-    fetchData()
-  }, [])
+    fetchData();
+  }, []);
 
-  console.log(movies);
+  const closeModal = () => {
+    setIsOpen(false);
+  }
+
+  const handleOnClick = () => {
+    setIsOpen(true);   
+  }
 
   return (
     <section className={styles.container}>
       {movies.map((movie, index) => (
         <div 
           key={index}
-          className={styles.movieContainer}  
+          className={styles.movieContainer} 
+          onClick={handleOnClick}
         >
           <p>
             {movie?.title}
           </p>
         </div>
       ))}
+      <MovieModal 
+        isOpen={ isOpen }
+        onRequestClose={ closeModal }
+      /> 
     </section>    
   )
 }
