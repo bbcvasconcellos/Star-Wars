@@ -7,7 +7,7 @@ export const Movies = () => {
   const [movies, setMovies] = useState([]);
   const [isOpen, setIsOpen] = useState(false);
   const [selectedMovie, setSelectedMovie] = useState({});
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(true);
 
   useEffect(() => {
     const fetchData = async() => {
@@ -15,13 +15,11 @@ export const Movies = () => {
      .then(response => response.json())
      .then(data => setMovies(data.results))
      .catch(err => console.log(err))
-     setIsLoading(true)
+     setIsLoaded(false)
     }
     fetchData();
-    setIsLoading(false)
+    setIsLoaded(true)
   }, []);
-
-  console.log(isLoading);
 
   const closeModal = () => {
     setIsOpen(false);
@@ -47,7 +45,7 @@ export const Movies = () => {
           </p>
         </div>
       ))}
-      {!isLoading ? <div>Carregando...</div> : <></>}
+      {isLoaded ? <div>Carregando...</div> : <></>}
       <MovieModal 
         isOpen={ isOpen }
         onRequestClose={ closeModal }
