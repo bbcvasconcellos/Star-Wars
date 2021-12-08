@@ -45,7 +45,7 @@ export const Movies = () => {
           </p>
         </div>
       ))}
-      {isLoaded ? <div>Carregando...</div> : <></>}
+      {isLoaded ? <div className={styles.loading}>{/* Carregando... */}</div> : <></>}
       <MovieModal 
         isOpen={ isOpen }
         onRequestClose={ closeModal }

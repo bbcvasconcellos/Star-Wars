@@ -52,3 +52,23 @@
     }
   }
 }
+
+@keyframes loading {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.loading {
+  width: 4rem;
+  height: 4rem;
+
+  position: absolute;
+  top: 40%;
+
+  border: 7px solid rgba(0,0,0,0.1);
+  border-radius: 100%;
+  border-top: 7px solid #990000;
+
+  animation: loading 1.5s infinite;
+}
