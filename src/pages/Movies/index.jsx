@@ -19,11 +19,14 @@ export const Movies = () => {
 
   const closeModal = () => {
     setIsOpen(false);
+    setSelectedMovie({})
   }
 
-  const handleOnClick = () => {
-    setIsOpen(true);   
+  const handleOnClick = (e) => {
+    setIsOpen(true);  
+    setSelectedMovie(e); 
   }
+
 
   return (
     <section className={styles.container}>
@@ -31,7 +34,7 @@ export const Movies = () => {
         <div 
           key={index}
           className={styles.movieContainer} 
-          onClick={handleOnClick}
+          onClick={() => handleOnClick(movie)}
         >
           <p>
             {movie?.title}
@@ -41,6 +44,7 @@ export const Movies = () => {
       <MovieModal 
         isOpen={ isOpen }
         onRequestClose={ closeModal }
+        movie={ selectedMovie }
       /> 
     </section>    
   )

@@ -38,7 +38,7 @@ function getWinner(cardsA, cardsB) {
   hands.push(cardsA, cardsB)
 
   hands.forEach(hands => {
-    hands.map((card, index) => {
+    hands.forEach((card, index) => {
       switch(card) {
         case "A":
           hands.splice(index, 1);
@@ -60,6 +60,7 @@ function getWinner(cardsA, cardsB) {
           hands.splice(index, 1);
           hands.splice(index, 0, 10);
           break;
+        default:
       }
     })
   })
