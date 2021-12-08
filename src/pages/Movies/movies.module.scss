@@ -8,7 +8,6 @@
   color: #FFE81F;
   font-size: 1rem;
 
-
   .movieContainer {
     padding: 1rem;
     border-radius: 0.5em;
@@ -17,8 +16,8 @@
     flex-direction: column;
     justify-content: flex-end;
 
-    min-height: 180px;
-    width: 150px;
+    min-height: 190px;
+    width: 180px;
 
     text-align: center;
     font-weight: 700;
@@ -31,6 +30,25 @@
       cursor: pointer;
       transform: scale(1.1);
     }
+  } 
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: #FFE81F;
+    font-size: 1rem;
   }
-  
+
+  .movieContainer {
+    margin-bottom: 2.5rem;
+
+    &:last-child{
+      margin-bottom: 5rem;
+    }
+  }
 }

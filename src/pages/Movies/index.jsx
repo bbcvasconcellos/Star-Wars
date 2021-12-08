@@ -13,6 +13,7 @@ export const Movies = () => {
       await fetch('https://swapi.dev/api/films')
      .then(response => response.json())
      .then(data => setMovies(data.results))
+     .catch(err => console.log(err))
     }
     fetchData();
   }, []);

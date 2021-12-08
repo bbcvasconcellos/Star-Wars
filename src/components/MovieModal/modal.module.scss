@@ -14,10 +14,11 @@
   width: 80%;
   overflow-y: auto;
   max-width: 576px;
-  max-height: 500px;
+  max-height: 420px;
   background: #EDF4F5;
   padding: 1.4rem 2rem;
   position: relative;
+  margin-top: 3rem;
   border-radius: 0.25rem;
 
   &::-webkit-scrollbar{
