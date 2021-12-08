@@ -37,8 +37,6 @@ export const MovieModal = ({ isOpen, onRequestClose, movie }) => {
       setPeople([]);
     }
   }, [isOpen])
-
-  console.log(people);
   
   return (
     <Modal
