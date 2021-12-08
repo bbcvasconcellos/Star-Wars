@@ -1,0 +1,40 @@
+.reactModalOverlay{
+  background: rgba(0,0,0,0.75);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reactModalContent{
+  overflow-y: auto;
+  margin-left: 60%;
+  max-width: 300px;
+  height: 100%;
+  background: #121317;
+  padding: 1.4rem 2rem;
+  position: fixed;
+  z-index: 200;
+  border-radius: 0.25rem;
+  transition: all 0.5s ease;
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 3rem;
+    padding: 1rem;
+
+    color: #FFE81F;
+    font-size: 1.2rem;
+
+    a {
+      margin-bottom: 2rem;
+    }
+    
+  }
+}

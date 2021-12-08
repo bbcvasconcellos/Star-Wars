@@ -19,8 +19,6 @@ export const MovieModal = ({ isOpen, onRequestClose, movie }) => {
     })
   }, [movie]) */
 
-  console.log(people);
-
   useEffect(() => {
     movie.characters?.forEach(character => {
       let num = character.match(/\d+/);
