@@ -1,44 +1,97 @@
-.container {
-  margin: 6rem auto 0;
-  padding: 0 2rem;
-  overflow-x: hidden;
-  max-height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-
-  .textContent {
+@media screen and (min-width: 761px) {
+  .container {
+    margin: 6rem auto 0;
+    padding: 0 2rem;
+    overflow-x: hidden;
+    max-height: 90vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    text-align: center;
-    word-wrap: break-word; /*remover qualquer coisa*/
-    color: #FFE81F;
+    justify-content: space-around;
 
-    > span {
-      font-size: 1.2rem;
+    .textContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      text-align: center;
+      word-wrap: break-word; /*remover qualquer coisa*/
+      color: #FFE81F;
+
+      > span {
+        font-size: 1.2rem;
+      }
+
+      div {
+        padding: 0rem 2rem;
+
+        h1 {
+          margin: 3rem 0 5rem;
+          word-wrap: break-word;
+          font-size: 4rem;
+        }
+        h3 {
+          margin-top: 2rem;
+          font-size: 1.8rem;
+        }
+      } 
     }
 
-    div {
-      padding: 0rem 2rem;
+    img{
+      max-height: 500px;
+      mix-blend-mode: overlay;
+      filter: contrast(1.5);
+    }
+}
+  
+}
 
-      h1 {
-        margin: 3rem 0 5rem;
-        word-wrap: break-word;
-        font-size: 4rem;
-      }
-      h3 {
-        margin-top: 2rem;
-        font-size: 1.8rem;
-      }
-    } 
-  }
+@media screen and (max-width: 760px) {
+    .container {
+      margin: 4rem auto;
+      padding: 0 1rem;
+      overflow: hidden;
+      max-height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  
+      .textContent {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+        word-wrap: break-word; 
+        color: #FFE81F;
+        padding: 0 1rem;
+        
+  
+        > span {
+          margin-top: 0rem;
+          font-size: 1.2rem;
+        }
+  
+        div {
 
-  img{
-    max-height: 500px;
-    mix-blend-mode: overlay;
-    filter: contrast(1.5);
-  }
+          h1 {
+            margin: 3rem 0 5rem; 
+            word-wrap: break-word;
+            font-size: 3.5rem;
+          }
+          h3 {
+            margin-top: 3rem;
+            font-size: 1.8rem;
+          }
+        } 
+      }
+  
+      img{
+        max-height: 500px;
+        mix-blend-mode: overlay;
+        filter: brightness(1.2);
+        
+      }
+    }
   
 }

@@ -24,5 +24,10 @@
     cursor: pointer;
     transform: scale(1.1);
   }
+  
+  @media screen and (max-width: 760px) {
+    position: relative;
+    z-index: 2;
+  }
 
 }

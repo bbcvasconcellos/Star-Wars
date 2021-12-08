@@ -7,13 +7,13 @@
   justify-content: flex-start;
 
   position: fixed;
+  z-index: 10;
   top: 0;
   width: 100%;
   
   padding: 1rem 3rem;
 
-  background: #121317; 
-
+  background: #121317;
   
   a {
     text-decoration: none;
@@ -31,6 +31,26 @@
 
     & + a {
       margin-left: 5rem;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    padding: 1rem 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .menu {
+      padding-right: 3rem;
+      transform: scale(1.8);
+      color: #FFE81F;
+      cursor: pointer;
+    }
+
+    > a {
+      margin-right: 0;
+      padding-left: 1rem;
     }
   }
 }

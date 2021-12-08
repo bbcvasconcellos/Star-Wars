@@ -12,11 +12,17 @@
 
 .reactModalContent{
   width: 80%;
+  overflow-y: auto;
   max-width: 576px;
+  max-height: 500px;
   background: #EDF4F5;
   padding: 1.4rem 2rem;
   position: relative;
   border-radius: 0.25rem;
+
+  &::-webkit-scrollbar{
+    display: none;
+  } 
   
   .close {
     cursor: pointer;
@@ -32,6 +38,13 @@
     
     > p{
       margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: none;
+      ::after {
+        content: ', ';
+      }
     }
   }
 }
