@@ -43,9 +43,6 @@
 
     ul {
       list-style-type: none;
-      ::after {
-        content: ', ';
-      }
     }
   }
 }
