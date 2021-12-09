@@ -1,9 +1,10 @@
 # Setup
 
-Este projeto está configurado com o Create React App, então todas as configurações devem ser feitas dentro do `/src`.
-Após baixar os fontes pela primeira vez, instale os pacotes do node pelo comando `npm install` e, depois, para cada vez que for iniciar o projeto e começar a desenvolver, basta fazer um `npm start` no _root_ do projeto.
+Este projeto utiliza ReactJS e Sass e utiliza a API do swapi: https://swapi.dev/ 
+Para instalar os pacotes do node pelo comando `npm install` e, depois, para cada vez que for iniciar o projeto e começar a desenvolver, basta fazer um `npm start` no _root_ do projeto.
 
-# Lógica
+# Lógica: 
+Na pagina "Resposta Questoes" encontram-se as respostas para cada uma das questoes abaixo.
 
 ## Questão 1: Encontrar o menor positivo possível
 
