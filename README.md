@@ -25,10 +25,10 @@ It has three routes:
 
 # Logic Questions
 
-1. Find the smallest non negative and non zero integer that is not present inside a given array. 
-  ####  Example: `A = [1, 3, 6, 4, 1, 2]` the expected answer should be 5
-  ####  Example 2: `A = [1, 2, 3]` the expected answer should be 4
-  ####  Example 3: `A = [−1, −3]` the expected answer should be 1
+1. Find the smallest non negative and non zero integer that is not present inside a given array.   
+  **Example:** `A = [1, 3, 6, 4, 1, 2]` the expected answer should be 5  
+  **Example 2:** `A = [1, 2, 3]` the expected answer should be 4  
+  **Example 3:** `A = [−1, −3]` the expected answer should be 1
 
 2. Using the **Fibonacci Sequece**, find the sum of all even numbers that are smaller that 4 million. 
 
