@@ -11,10 +11,10 @@ Once you are done, simply run yarn or npm install to setup the packages.
 
 It's a frontend project that consumes the **API** from https://swapi.dev/ to display all the first six movies from the series, and the characters that make an appearance in each movie. The questions section is based on some logic exercises on questions presented on **utils** folder.
 
-It has three routes: 
- /home
- /movies
- /questions
+It has three routes:   
+ /home  
+ /movies  
+ /questions  
 
 # The Stack Behind
 
