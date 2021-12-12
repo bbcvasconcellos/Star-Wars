@@ -33,11 +33,11 @@ It has three routes:
 2. Using the **Fibonacci Sequece**, find the sum of all even numbers that are smaller that 4 million. 
 
 3. Find the winner of a cards game which consists of 2 players (A and B) and 5 cards for each. The cards value should respect the following order: 
- `A > K > Q > J > 0 > 9 > 8 > 7 > 6 > 5 > 4 > 3 > 2`
+  `A > K > Q > J > 0 > 9 > 8 > 7 > 6 > 5 > 4 > 3 > 2`
  Respecting the order and position in the array, the player that holds the highest valued cards win. 
- If player A wins, the function returns 1
- If player B wins, the function returns -1
- Tie returns 0
+   If player A wins, the function returns 1
+   If player B wins, the function returns -1
+   Tie returns 0
 
 
 
