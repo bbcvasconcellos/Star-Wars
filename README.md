@@ -30,7 +30,7 @@ It has three routes:
   **Example 2:** `A = [1, 2, 3]` the expected answer should be 4  
   **Example 3:** `A = [−1, −3]` the expected answer should be 1
 
-2. Using the **Fibonacci Sequece**, find the sum of all even numbers that are smaller that 4 million. 
+2. Using the **Fibonacci Sequece**, find the sum of all even numbers smaller than 4 million. 
 
 3. Find the winner of a cards game which consists of 2 players (A and B) and 5 cards for each. The cards value should respect the following order: 
   `A > K > Q > J > 0 > 9 > 8 > 7 > 6 > 5 > 4 > 3 > 2`  
