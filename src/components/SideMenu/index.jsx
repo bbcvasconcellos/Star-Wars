@@ -10,9 +10,9 @@ export const SideMenu = ({ isOpen, onRequestClose }) => {
       overlayClassName={styles.reactModalOverlay}
     >
       <div>
-        <a href="/">Menu</a>
-        <a href="/filmes">Filmes</a>
-        <a href="/questoes">Resultados Questões</a> 
+        <a href="/">Main Menu</a>
+        <a href="/movies">Movies</a>
+        <a href="/questions">Quesstion Answers</a> 
       </div>
 
     </Modal>

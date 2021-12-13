@@ -19,8 +19,8 @@ export const Header = () => {
         </a>
         {width > 760 ? 
           <>
-            <a href="/filmes">Filmes</a>
-            <a href="/questoes">Resultados Questões</a> 
+            <a href="/movies">Movies</a>
+            <a href="/questions">Question Answers</a> 
           </> :
           <>
             <FiMenu 
@@ -36,6 +36,3 @@ export const Header = () => {
       </nav>
   )
 }
-
-
-//<FiMenu className={styles.menuIcon}/>

@@ -53,7 +53,7 @@ export const MovieModal = ({ isOpen, onRequestClose, movie }) => {
         <h3>{movie.title}</h3>
         <p>Episode:&nbsp;<span><strong>{movie.episode_id}</strong></span></p>
         <p>{movie.opening_crawl}</p>
-        <strong>Personagens nesse filme: </strong>
+        <strong>Characters in this movie: </strong>
         <ul>
           {people.map((person, key) => (
             <li key={key}>{person.name}</li>            

@@ -8,8 +8,8 @@ export const RoutesDirection = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/filmes" element={<Movies />} />
-        <Route path="/questoes" element={<QuestionAnswers />} />
+        <Route path="/movies" element={<Movies />} />
+        <Route path="/questions" element={<QuestionAnswers />} />
       </Routes>
     </BrowserRouter>
   )
