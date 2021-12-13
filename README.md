@@ -1,9 +1,9 @@
 # Getting Started
 
 ### First things first! 
-Let's first clone this repo:
+Let's start by cloning this repo:
 
-https://github.com/bbcvasconcellos/Star-Wars.git
+`git clone` https://github.com/bbcvasconcellos/Star-Wars.git
 
 Once you are done, simply run yarn or npm install to setup the packages.
 
