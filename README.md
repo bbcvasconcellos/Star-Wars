@@ -18,7 +18,7 @@ It has three routes:
 
 # The Stack Behind
 
-- `ReactJS -> https://reactjs.org/`
+- `ReactJS` -> https://reactjs.org/
 - `Sass` -> https://sass-lang.com/
 - `vanilla JavaScript`
 
