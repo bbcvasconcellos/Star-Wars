@@ -19,7 +19,7 @@ It has three routes:
 # The Stack Behind
 
 - `ReactJS`
-- `Sass`
+- `https://sass-lang.com/`
 - `vanilla JavaScript`
 
 
