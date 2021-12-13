@@ -38,8 +38,8 @@ It has three routes:
    If player A wins, the function returns 1  
    If player B wins, the function returns -1  
    Tie returns 0  
-   **Example: `A = [4, 'Q', 'J', 2, 5]` and `B = ['A', 0, 9, 3, 2]` -> returns 1  
-   **Example: `A = [5, 3, 'J', 6, 7]` and `B = ['K', 'Q', 0, 9, 4]` -> returns -1    
+   **Example: `A = [4, 'Q', 'J', 2, 5]` and `B = ['A', 0, 9, 3, 2]` -> returns 1**     
+   **Example: `A = [5, 3, 'J', 6, 7]` and `B = ['K', 'Q', 0, 9, 4]` -> returns -1**      
    
 
 
