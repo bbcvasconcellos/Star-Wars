@@ -18,9 +18,9 @@ It has three routes:
 
 # The Stack Behind
 
-- ReactJS
-- sass
-- vanilla JavaScript
+- `ReactJS`
+- `Sass`
+- `vanilla JavaScript`
 
 
 # Logic Questions
