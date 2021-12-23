@@ -16,7 +16,7 @@ It has three routes:
  /movies  
  /questions  
 
-# The Stack Behind
+# The Stack Behind the Project
 
 - `ReactJS` -> https://reactjs.org/
 - `Sass` -> https://sass-lang.com/
