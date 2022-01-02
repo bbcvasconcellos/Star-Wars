@@ -1,6 +1,6 @@
 {
-  "short_name": "Teste BeatsCode",
-  "name": "Testes de avaliação de desempenho da BeatsCode",
+  "short_name": "Star Wars Project",
+  "name": "Star Wars API frontend",
   "icons": [
     {
       "src": "favicon.ico",
