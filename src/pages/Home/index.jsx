@@ -10,7 +10,7 @@ export const Home = () => {
       <section className={styles.textContent}>
         <span>Welcome young Padawan!</span>
         <div>
-          <h3>Check it out all movies!</h3>
+          <h3>Check all the movies out!</h3>
           <br />
           <h1>May the Force <br />Be With You </h1>
         </div>
