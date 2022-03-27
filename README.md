@@ -5,7 +5,7 @@ Let's start by cloning this repo:
 
 `git clone` https://github.com/bbcvasconcellos/Star-Wars.git
 
-Once you are done, simply run `yarn` or `npm` install to setup the packages.
+Once you are done, simply run `yarn` or `npm install` to set the packages.
 
 # About this Project
 
@@ -18,8 +18,8 @@ It has three routes:
 
 # The Stack Behind the Project
 
-- `ReactJS` -> https://reactjs.org/
-- `Sass` -> https://sass-lang.com/
+- [ReactJS](https://reactjs.org/)
+- [Sass](ttps://sass-lang.com/)
 - `vanilla JavaScript`
 
 
